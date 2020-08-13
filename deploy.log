@@ -1,0 +1,59 @@
+qsun@qsun-ltm:~/src/SFDX/build-apps-with-lwc$ sfdx force:source:deploy -p force-app/main/default
+Job ID | 0Af3t000005bUsTCAU
+SOURCE PROGRESS | ████████████████████████████████████████ | 48/48 Components
+=== Deployed Source
+FULL NAME                   TYPE                     PROJECT PATH
+──────────────────────────  ───────────────────────  ────────────────────────────────────────────────────────────────────────────────────────────
+Ursus_Park                  CustomApplication        force-app/main/default/applications/Ursus_Park.app-meta.xml
+BearController              ApexClass                force-app/main/default/classes/BearController.cls
+BearController              ApexClass                force-app/main/default/classes/BearController.cls-meta.xml
+ursusparkapplogo            ContentAsset             force-app/main/default/contentassets/ursusparkapplogo.asset
+ursusparkapplogo            ContentAsset             force-app/main/default/contentassets/ursusparkapplogo.asset-meta.xml
+Ursus_Park_UtilityBar       FlexiPage                force-app/main/default/flexipages/Ursus_Park_UtilityBar.flexipage-meta.xml
+Bear__c-Bear Layout         Layout                   force-app/main/default/layouts/Bear__c-Bear Layout.layout-meta.xml
+Contact-Contact Layout      Layout                   force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml
+BearListUpdate              LightningMessageChannel  force-app/main/default/messageChannel/BearListUpdate.messageChannel-meta.xml
+Bear__c                     CustomObject             force-app/main/default/objects/Bear__c/Bear__c.object-meta.xml
+Bear__c.Age__c              CustomField              force-app/main/default/objects/Bear__c/fields/Age__c.field-meta.xml
+Bear__c.Birthdate__c        CustomField              force-app/main/default/objects/Bear__c/fields/Birthdate__c.field-meta.xml
+Bear__c.Height__c           CustomField              force-app/main/default/objects/Bear__c/fields/Height__c.field-meta.xml
+Bear__c.Location__c         CustomField              force-app/main/default/objects/Bear__c/fields/Location__c.field-meta.xml
+Bear__c.Observations__c     CustomField              force-app/main/default/objects/Bear__c/fields/Observations__c.field-meta.xml
+Bear__c.Sex__c              CustomField              force-app/main/default/objects/Bear__c/fields/Sex__c.field-meta.xml
+Bear__c.Supervisor__c       CustomField              force-app/main/default/objects/Bear__c/fields/Supervisor__c.field-meta.xml
+Bear__c.Weight__c           CustomField              force-app/main/default/objects/Bear__c/fields/Weight__c.field-meta.xml
+Bear__c.All                 ListView                 force-app/main/default/objects/Bear__c/listViews/All.listView-meta.xml
+Contact                     CustomObject             force-app/main/default/objects/Contact/Contact.object-meta.xml
+Contact.Compact_Contact     CompactLayout            force-app/main/default/objects/Contact/compactLayouts/Compact_Contact.compactLayout-meta.xml
+Contact.AccountId           CustomField              force-app/main/default/objects/Contact/fields/AccountId.field-meta.xml
+Contact.AssistantName       CustomField              force-app/main/default/objects/Contact/fields/AssistantName.field-meta.xml
+Contact.AssistantPhone      CustomField              force-app/main/default/objects/Contact/fields/AssistantPhone.field-meta.xml
+Contact.Birthdate           CustomField              force-app/main/default/objects/Contact/fields/Birthdate.field-meta.xml
+Contact.CleanStatus         CustomField              force-app/main/default/objects/Contact/fields/CleanStatus.field-meta.xml
+Contact.Department          CustomField              force-app/main/default/objects/Contact/fields/Department.field-meta.xml
+Contact.Description         CustomField              force-app/main/default/objects/Contact/fields/Description.field-meta.xml
+Contact.DoNotCall           CustomField              force-app/main/default/objects/Contact/fields/DoNotCall.field-meta.xml
+Contact.Email               CustomField              force-app/main/default/objects/Contact/fields/Email.field-meta.xml
+Contact.Fax                 CustomField              force-app/main/default/objects/Contact/fields/Fax.field-meta.xml
+Contact.HasOptedOutOfEmail  CustomField              force-app/main/default/objects/Contact/fields/HasOptedOutOfEmail.field-meta.xml
+Contact.HasOptedOutOfFax    CustomField              force-app/main/default/objects/Contact/fields/HasOptedOutOfFax.field-meta.xml
+Contact.HomePhone           CustomField              force-app/main/default/objects/Contact/fields/HomePhone.field-meta.xml
+Contact.Jigsaw              CustomField              force-app/main/default/objects/Contact/fields/Jigsaw.field-meta.xml
+Contact.LastCURequestDate   CustomField              force-app/main/default/objects/Contact/fields/LastCURequestDate.field-meta.xml
+Contact.LastCUUpdateDate    CustomField              force-app/main/default/objects/Contact/fields/LastCUUpdateDate.field-meta.xml
+Contact.LeadSource          CustomField              force-app/main/default/objects/Contact/fields/LeadSource.field-meta.xml
+Contact.MailingAddress      CustomField              force-app/main/default/objects/Contact/fields/MailingAddress.field-meta.xml
+Contact.MobilePhone         CustomField              force-app/main/default/objects/Contact/fields/MobilePhone.field-meta.xml
+Contact.Name                CustomField              force-app/main/default/objects/Contact/fields/Name.field-meta.xml
+Contact.OtherAddress        CustomField              force-app/main/default/objects/Contact/fields/OtherAddress.field-meta.xml
+Contact.OtherPhone          CustomField              force-app/main/default/objects/Contact/fields/OtherPhone.field-meta.xml
+Contact.OwnerId             CustomField              force-app/main/default/objects/Contact/fields/OwnerId.field-meta.xml
+Contact.Phone               CustomField              force-app/main/default/objects/Contact/fields/Phone.field-meta.xml
+Contact.ReportsToId         CustomField              force-app/main/default/objects/Contact/fields/ReportsToId.field-meta.xml
+Contact.Title               CustomField              force-app/main/default/objects/Contact/fields/Title.field-meta.xml
+Ursus_Park_User             PermissionSet            force-app/main/default/permissionsets/Ursus_Park_User.permissionset-meta.xml
+ursus_park                  StaticResource           force-app/main/default/staticresources/ursus_park/img/standing-bear-silhouette.png
+ursus_park                  StaticResource           force-app/main/default/staticresources/ursus_park/style.css
+ursus_park                  StaticResource           force-app/main/default/staticresources/ursus_park.resource-meta.xml
+Bear__c                     CustomTab                force-app/main/default/tabs/Bear__c.tab-meta.xml
+qsun@qsun-ltm:~/src/SFDX/build-apps-with-lwc$ 
